@@ -20,3 +20,6 @@ input{
 textarea{
   font-size: 14px;
 }
+span{
+  color: red;
+}
