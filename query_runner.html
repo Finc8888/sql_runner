@@ -5,8 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Query Runner</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+  <div class="header">
+    <h2>Средство запуска SQL запросов</h2>
+  </div>
+  <div class="content">
+    <p>Введите свой SQL запрос в этом поле:</p>
+    <form action="run_query.php" method="post">
+      <fieldset class="text">
+        <textarea name="query" id="query_text" cols="65" rows="8" ></textarea>
+      </fieldset>
+      <br>
+      <fildset class="center">
+        <input type="submit" value ="Запуск запроса"</input>
+        <input type="reset" value ="Очистка и перезапуск"</input>
+      </fildset>
+    </form>
+  </div>
 </body>
 </html>
